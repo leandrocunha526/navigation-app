@@ -10,4 +10,4 @@ Com
 
 Ícones:
 * [Github React Native Vector Icons](https://github.com/oblador/react-native-vector-icons) 
-* [Finder icons](https://oblador.github.io/react-native-vector-icons)
+* [Icon finder](https://oblador.github.io/react-native-vector-icons)
