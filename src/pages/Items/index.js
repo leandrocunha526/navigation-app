@@ -10,7 +10,7 @@ export default function Items() {
 
     return (
         <View style={styles.container}>
-        <Text style={styles.title}>Tela de itens</Text>
+        <Text style={styles.title}>Lista de itens</Text>
         <Button title="Tela inicial" color="#0000ff" onPress={() => goToScreen("Home")}/>
         <View style={styles.button}>
         <Button
