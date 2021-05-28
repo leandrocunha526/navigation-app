@@ -2,7 +2,7 @@ import React from "react";
 import {createStackNavigator} from "@react-navigation/stack";
 import {NavigationContainer} from "@react-navigation/native";
 const Stack = createStackNavigator();
-import TabNavigator from "./../components/TabNavigator";
+import TabNavigation from "./../components/TabNavigation";
 
 export default function Index(){
     return(
@@ -10,7 +10,7 @@ export default function Index(){
     <Stack.Navigator>
     <Stack.Screen
         name="Catálogo"
-        component={TabNavigator}
+        component={TabNavigation}
         options={{headerTitleAlign: 'center'}}
     />
     </Stack.Navigator>
