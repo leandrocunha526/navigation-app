@@ -2,7 +2,7 @@ import React from "react";
 import {createStackNavigator} from "@react-navigation/stack";
 import {NavigationContainer} from "@react-navigation/native";
 const Stack = createStackNavigator();
-import TabNavigation from "./../components/TabNavigation";
+import TabNavigation from "./TabNavigation";
 
 export default function Index(){
     return(
